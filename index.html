@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CreditSim | Simplicidade no Controle de Crédito</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="logocredit.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <div class="logo">
+          <img src="credit.svg" alt="CreditSim Icon" /> CreditSim
+        </div>
+        <nav>
+          <ul>
+            <li><a href="Documentação.html">Documentação</a></li>
+            <li><a href="Sobre.html">Sobre</a></li>
+            <li class="all-versions" id="all-versions">
+              <p>Versões:</p>
+              <select id="previous-versions">
+                <option value="">Selecione uma versão</option>
+                <!-- As versões serão carregadas aqui via JavaScript -->
+              </select>
+              <a
+                href="#"
+                id="download-previous-version"
+                class="btn"
+                style="display: none"
+                >Download</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="content">
+        <div class="icon">
+          <img class="image-box-shadow" src="credit.svg" alt="Credit Icon" />
+        </div>
+        <h1>CreditSim</h1>
+        <p>
+          O CreditSim é uma solução simples e atualmente gratuita que permite
+          aos lojistas gerenciar crediários de forma rápida e descomplicada.
+        </p>
+        <div class="buttons">
+          <a href="#" id="latest-version-link" class="btn-primary">Download</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>
+        Criado com ❤️ pela equipe
+        <a href="#">CreditPro</a> . Licenciado sob a
+        <a href="#">Licença GPL</a>.
+      </p>
+    </footer>
+  </body>
+  <script src="script.js"></script>
+</html>
